@@ -4,53 +4,181 @@
     "publisher": "NextGen Healthcare",
     "homepage": "https://github.com/gibson9583/connect-examples",
     "license": "MPL-2.0",
-    "authors": ["NextGen Healthcare"],
+    "authors": [
+        "NextGen Healthcare"
+    ],
     "storeDocs": "docs/store.md",
     "items": [
         {
-            "id": "example-get-num-pages-embedded-pdf",
+            "id": "example-get-num-pages-from-embedded-pdf",
             "type": "channel",
             "name": "Get Num Pages From Embedded PDF",
-            "description": "Example channel: count the pages of a PDF embedded in a message.",
+            "description": "Example channel: Get Num Pages From Embedded PDF.",
             "minEngineVersion": "4.0.0",
             "contentId": "6de4dab6-cbb8-4840-87bb-31a85fab9101",
             "artifact": "Channels/Get Num Pages From Embedded PDF/Example - Get Num Pages From Embedded PDF.xml"
         },
         {
-            "id": "example-validate-xsd",
+            "id": "example-validate-xsd-source-filter",
             "type": "channel",
             "name": "Validate XSD Source Filter",
-            "description": "Example channel: validate a message against an XSD in a source filter.",
+            "description": "Example channel: Validate XSD Source Filter.",
             "minEngineVersion": "4.0.0",
             "contentId": "9c5f43ca-544c-4a40-80f6-455868c7e3f4",
             "artifact": "Channels/Validate XSD Source Filter/Example - Validate XSD.xml"
         },
         {
-            "id": "connect-examples-library",
-            "type": "code-template-library",
-            "name": "Connect Examples",
-            "description": "16 utility code templates — HL7 helpers, XML utilities, PDF tools, and more — as one library.",
+            "id": "ct-convert-date-from-multiple-formats",
+            "type": "code-template",
+            "name": "Convert Date From Multiple Formats",
+            "description": "Example code template: Convert Date From Multiple Formats.",
             "minEngineVersion": "4.0.0",
-            "contentId": "efe2edca-3ab4-57ac-82d6-9f051bfb82a1",
-            "artifact": "Code Templates/Connect Examples Library.xml"
+            "contentId": "e31ef05e-7cd5-43d2-a2db-b264ed98c003",
+            "artifact": "Code Templates/Convert Date From Multiple Formats/Convert Date From Multiple Formats.xml"
         },
         {
-            "id": "convert-xml-to-hl7",
+            "id": "ct-convert-xml-to-hl7",
             "type": "code-template",
             "name": "Convert XML to HL7",
-            "description": "Code template: serialize an XML object into an HL7 v2 message string.",
+            "description": "Example code template: Convert XML to HL7.",
             "minEngineVersion": "4.0.0",
             "contentId": "64b8b653-162b-454e-a790-21d659934bc8",
             "artifact": "Code Templates/Convert XML to HL7/Convert XML to HL7.xml"
         },
         {
-            "id": "encrypt-pdf",
+            "id": "ct-create-and-insert-segment-templates",
+            "type": "code-template",
+            "name": "Create and Insert Segment Templates",
+            "description": "Example code template: Create and Insert Segment Templates.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "41f83fb6-69a4-434d-8e11-d687577f387e",
+            "artifact": "Code Templates/Create and Insert Segment Templates/Create Segment Before Segment.xml"
+        },
+        {
+            "id": "ct-encrypt-pdf",
             "type": "code-template",
             "name": "Encrypt PDF",
-            "description": "Code template: encrypt a PDF with a password.",
+            "description": "Example code template: Encrypt PDF.",
             "minEngineVersion": "4.0.0",
             "contentId": "942f9161-6998-42e1-9528-83342f457ac5",
             "artifact": "Code Templates/Encrypt PDF/Encrypt PDF.xml"
+        },
+        {
+            "id": "ct-execute-runtime-command",
+            "type": "code-template",
+            "name": "Execute Runtime Command",
+            "description": "Example code template: Execute Runtime Command.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "28e29e59-d093-41cf-8c2d-4ad4587f9e20",
+            "artifact": "Code Templates/Execute Runtime Command/Execute Runtime Command.xml"
+        },
+        {
+            "id": "ct-extract-text-from-pdf",
+            "type": "code-template",
+            "name": "Extract Text From PDF",
+            "description": "Example code template: Extract Text From PDF.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "dcd2ce64-4c3c-4e53-9f71-dbf296004fe3",
+            "artifact": "Code Templates/Extract Text From PDF/Extract Text From PDF.xml"
+        },
+        {
+            "id": "ct-fix-hl7-node-order",
+            "type": "code-template",
+            "name": "Fix HL7 Node Order",
+            "description": "Example code template: Fix HL7 Node Order.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "23adc50e-ab2b-4c9f-ab4b-6b17dc31bab7",
+            "artifact": "Code Templates/Fix HL7 Node Order/Fix Node Order in HL7 v2.x Message.xml"
+        },
+        {
+            "id": "ct-get-num-pages-in-pdf",
+            "type": "code-template",
+            "name": "Get Num Pages In PDF",
+            "description": "Example code template: Get Num Pages In PDF.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "7294645e-df37-4536-b2ad-a0d08f4e98be",
+            "artifact": "Code Templates/Get Num Pages In PDF/Get Num Pages In PDF.xml"
+        },
+        {
+            "id": "ct-get-segments-after-a-particular-segment",
+            "type": "code-template",
+            "name": "Get Segments After a Particular Segment",
+            "description": "Example code template: Get Segments After a Particular Segment.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "270003aa-9350-45a7-9397-58679320cb9d",
+            "artifact": "Code Templates/Get Segments After a Particular Segment/Get Segments After a Particular Segment.xml"
+        },
+        {
+            "id": "ct-join-hl7-subcomponents",
+            "type": "code-template",
+            "name": "Join HL7 Subcomponents",
+            "description": "Example code template: Join HL7 Subcomponents.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "aab23d47-cae1-4a03-9317-27246e5cf808",
+            "artifact": "Code Templates/Join HL7 Subcomponents/Join HL7 Subcomponents (code template).xml"
+        },
+        {
+            "id": "ct-overwrite-logger-categories",
+            "type": "code-template",
+            "name": "Overwrite Logger Categories",
+            "description": "Example code template: Overwrite Logger Categories.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "a9e61c41-5b0c-47da-82c9-0601ad5a3baa",
+            "artifact": "Code Templates/Overwrite Logger Categories/Overwrite Logger Categories.xml"
+        },
+        {
+            "id": "ct-rename-hl7-field",
+            "type": "code-template",
+            "name": "Rename HL7 Field",
+            "description": "Example code template: Rename HL7 Field.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "80cbe9dc-bbb9-4379-a124-21ce86b3e3ea",
+            "artifact": "Code Templates/Rename HL7 Field/Rename HL7 Field.xml"
+        },
+        {
+            "id": "ct-replace-in-all-descendant-xml-nodes",
+            "type": "code-template",
+            "name": "Replace in All Descendant XML Nodes",
+            "description": "Example code template: Replace in All Descendant XML Nodes.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "c4ef99be-6845-4167-8a07-1e6c40b52bb3",
+            "artifact": "Code Templates/Replace in All Descendant XML Nodes/Replace in All Descendant XML Nodes.xml"
+        },
+        {
+            "id": "ctl-route-with-sources",
+            "type": "code-template-library",
+            "name": "Route with Sources",
+            "description": "Example code template library: Route with Sources.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "ca9c7efd-2329-4248-bb9a-0271554baeaf",
+            "artifact": "Code Templates/Route with Sources/Route With Sources - Code Template Library.xml"
+        },
+        {
+            "id": "ct-strip-empty-nodes-from-xml",
+            "type": "code-template",
+            "name": "Strip Empty Nodes from XML",
+            "description": "Example code template: Strip Empty Nodes from XML.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "ffa5fa9b-e13e-48b1-96d5-b4f7ac08d497",
+            "artifact": "Code Templates/Strip Empty Nodes from XML/Strip Empty Nodes from XML.xml"
+        },
+        {
+            "id": "ct-thread-safe-get-or-create-from-globalmap",
+            "type": "code-template",
+            "name": "Thread-safe get or create from globalMap",
+            "description": "Example code template: Thread-safe get or create from globalMap.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "d9c5b969-56ad-4a2f-bcec-e6708deea959",
+            "artifact": "Code Templates/Thread-safe get or create from globalMap/Thread-safe get or create from globalMap.xml"
+        },
+        {
+            "id": "ct-unescape-xdd-hl7-sequences",
+            "type": "code-template",
+            "name": "Unescape Xdd HL7 Sequences",
+            "description": "Example code template: Unescape Xdd HL7 Sequences.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "9d3f1dd9-d28e-42e5-89bd-8a3569b33b69",
+            "artifact": "Code Templates/Unescape Xdd HL7 Sequences/Unescape Xdd HL7 Sequences.xml"
         }
     ]
 }
