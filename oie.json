@@ -1,0 +1,56 @@
+{
+    "schemaVersion": 1,
+    "name": "Connect Examples",
+    "publisher": "NextGen Healthcare",
+    "homepage": "https://github.com/gibson9583/connect-examples",
+    "license": "MPL-2.0",
+    "authors": ["NextGen Healthcare"],
+    "storeDocs": "docs/store.md",
+    "items": [
+        {
+            "id": "example-get-num-pages-embedded-pdf",
+            "type": "channel",
+            "name": "Get Num Pages From Embedded PDF",
+            "description": "Example channel: count the pages of a PDF embedded in a message.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "6de4dab6-cbb8-4840-87bb-31a85fab9101",
+            "artifact": "Channels/Get Num Pages From Embedded PDF/Example - Get Num Pages From Embedded PDF.xml"
+        },
+        {
+            "id": "example-validate-xsd",
+            "type": "channel",
+            "name": "Validate XSD Source Filter",
+            "description": "Example channel: validate a message against an XSD in a source filter.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "9c5f43ca-544c-4a40-80f6-455868c7e3f4",
+            "artifact": "Channels/Validate XSD Source Filter/Example - Validate XSD.xml"
+        },
+        {
+            "id": "connect-examples-library",
+            "type": "code-template-library",
+            "name": "Connect Examples",
+            "description": "16 utility code templates — HL7 helpers, XML utilities, PDF tools, and more — as one library.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "efe2edca-3ab4-57ac-82d6-9f051bfb82a1",
+            "artifact": "Code Templates/Connect Examples Library.xml"
+        },
+        {
+            "id": "convert-xml-to-hl7",
+            "type": "code-template",
+            "name": "Convert XML to HL7",
+            "description": "Code template: serialize an XML object into an HL7 v2 message string.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "64b8b653-162b-454e-a790-21d659934bc8",
+            "artifact": "Code Templates/Convert XML to HL7/Convert XML to HL7.xml"
+        },
+        {
+            "id": "encrypt-pdf",
+            "type": "code-template",
+            "name": "Encrypt PDF",
+            "description": "Code template: encrypt a PDF with a password.",
+            "minEngineVersion": "4.0.0",
+            "contentId": "942f9161-6998-42e1-9528-83342f457ac5",
+            "artifact": "Code Templates/Encrypt PDF/Encrypt PDF.xml"
+        }
+    ]
+}
